@@ -29,6 +29,7 @@ button {
 
 .logo-style {
     color: #2e2f42;
+    
 }
 
 .nav-item-link { 
@@ -43,11 +44,40 @@ button {
 .nav-item-link:focus {
     color: #404bbf;
 }
+/*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}*/
+.container {
+    width: 1150px;
+    padding: 24px 1169px 24px 156px;
+}
+ .header-container {
+       /*display: flex; */
+ }
+.nav-page {
+    /*display: flex; */
+    align-items: center;
+}
+.nav-list {
+    display:flex;
+     padding: 24px 832px 24px 347px;
+     gap: 40px;
+}
+
+.nav-list-item:not(:last-child) {
+    margin-right: 40px;
+}
 
 .addr {
     font-style: normal;
+    padding: 24px 347px 24px 940px;
 }
-
+.addr-list {
+    display: flex;
+    gap: 40px;
+}
 .addr-item-link {
     font-weight: 400;
     font-size: 16px;
