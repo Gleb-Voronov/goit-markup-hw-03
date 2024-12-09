@@ -8,15 +8,40 @@ a {
     text-decoration: none;
 }
 
-ul {
+ul, ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
 button {
     cursor: pointer;
 }
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 /* #region Header */
- 
+
+.header-page {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-page {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -27,11 +52,23 @@ button {
     color: #4d5ae5;
 }
 
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
 .logo-style {
     color: #2e2f42;
 }
 
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 .nav-item-link { 
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -46,9 +83,17 @@ button {
 
 .addr {
     font-style: normal;
+    margin-left: auto;
 }
 
+.addr-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 .addr-item-link {
+    display: block;
+    padding: 24px 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
