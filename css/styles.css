@@ -206,6 +206,7 @@ button {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    margin-top: 32px;
 }
 
 .text {
@@ -235,6 +236,10 @@ button {
     border-radius: 0 0 4px 4px;
     width: calc((100% - 3 * 24px) / 4);
 }
+.container-item {
+    text-align: center;
+    padding-bottom: 32px;
+}
 .portfolio-container {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -242,7 +247,9 @@ button {
 
 .portfolio-list {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .portfolio-list-item {
  width: calc((100% - 2 * 24px) / 3);
@@ -254,8 +261,14 @@ button {
 .footer-page {
     background-color: #2e2f42;
 }
+.footer-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
     footer .logo-style {
     color: #f4f4fd;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
@@ -264,6 +277,7 @@ button {
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #f4f4fd;
+    width: 264px;
 }
 
 /* #endregion */
