@@ -8,6 +8,9 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+}
 ul, ol {
     list-style-type: none;
     margin: 0;
@@ -19,16 +22,16 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .visually-hidden {
- position: absolute;
-width: 1px;
-height: 1px;
-margin: -1px;
-border: 0;
-padding: 0;
-white-space: nowrap;
-clip-path: inset(100%);
-clip: rect(0 0 0 0);
-overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 
@@ -130,7 +133,8 @@ button {
     background-color: #2e2f42;
 }
 .hero-container {
-    padding: 188px 0;
+    padding-top: 188px;
+    padding-bottom: 188px;
     align-items: center;
 }
 .hero-title {
@@ -140,7 +144,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
-    width: 496px;
+    max-width: 496px;
     margin-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
@@ -176,8 +180,7 @@ button {
 }
 
 .section-container {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 .section-title {
     font-weight: 700;
@@ -221,8 +224,7 @@ button {
     background-color: #F4F4FD;
 }
 .team-container {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 .section-title {
     margin-bottom: 72px;
@@ -238,11 +240,10 @@ button {
 }
 .container-item {
     text-align: center;
-    padding-bottom: 32px;
+    padding: 32px 0; 
 }
 .portfolio-container {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .portfolio-list {
@@ -253,6 +254,12 @@ button {
 }
 .portfolio-list-item {
  width: calc((100% - 2 * 24px) / 3);
+/*border: 1px solid #e7e9fc;*/
+}
+
+.container-item-portfolio {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 /* #endregion */
 
@@ -262,10 +269,9 @@ button {
     background-color: #2e2f42;
 }
 .footer-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
+   padding: 100px 0;
 }
-    footer .logo-style {
+footer .logo-style {
     color: #f4f4fd;
     display: inline-block;
     margin-bottom: 16px;
