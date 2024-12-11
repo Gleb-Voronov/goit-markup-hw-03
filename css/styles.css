@@ -33,8 +33,6 @@ h1, h2, h3, h4, h5, h6, p {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
-
 button {
     cursor: pointer;
 }
@@ -249,14 +247,13 @@ button {
     row-gap: 48px;
 }
 .portfolio-list-item {
- width: calc((100% - 2 * 24px) / 3);
-/*border: 1px solid #e7e9fc;*/
+    width: calc((100% - 2 * 24px) / 3);
 }
 
 .container-item-portfolio {
     padding: 32px 16px;
-    border-top: none;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 /* #endregion */
 
