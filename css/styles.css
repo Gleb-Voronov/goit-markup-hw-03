@@ -177,7 +177,7 @@ button {
     background-color: #F4F4FD
 }
 
-.section-title {
+/*.section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -185,7 +185,7 @@ button {
     color: #2e2f42;
     text-align: center;
     text-transform: capitalize;
-}
+}*/
 
 .benef-list {
     display: flex;
